@@ -5,14 +5,11 @@ module.exports = {
     },
     "extends": "eslint:recommended",
     "rules": {
-        "indent": [
-            "error",
-            "tab"
-        ],
         "quotes": [
             "error",
             "single"
         ],
+        "no-unused-vars": ["error", { "vars": "all", "args": "none" }],
         "semi": [
             "error",
             "always"
