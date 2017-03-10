@@ -79,6 +79,7 @@ module.exports = {
   cube: cube,
   addExclamationPoint: addExclamationPoint,
   combineNames: combineNames,
+  getGreeting: getGreeting,
   getRectangleArea: getRectangleArea,
   getTriangleArea: getTriangleArea,
   getCircleArea: getCircleArea,
