@@ -16,5 +16,5 @@ Function
   args
   return
 + - / % *
-data types (string, number)
+data types (string, number, bool)
 Math
