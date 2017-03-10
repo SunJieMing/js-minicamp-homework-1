@@ -1,0 +1,23 @@
+{
+  "name": "js-homework-1",
+  "version": "1.0.0",
+  "description": "LambdaSchool's JavaScript Mini-Bootcamp Homework 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SunJieMing/js-minicamp-homework-1.git"
+  },
+  "author": "Ben Nelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SunJieMing/js-minicamp-homework-1/issues"
+  },
+  "homepage": "https://github.com/SunJieMing/js-minicamp-homework-1#readme",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
