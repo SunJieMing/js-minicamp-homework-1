@@ -86,6 +86,16 @@ function raiseToPower(num, exponent) {
   //code here
 }
 
+function roundNumber(num) {
+  //round num and return it
+  //code here
+}
+
+function roundUp(num) {
+  //round num up and return it
+  //code here
+}
+
 function addExclamationPoint(str) {
   //add an exclamation point to the end of str and return the new string
   //'hello world' -> 'hello world!'
@@ -146,6 +156,8 @@ module.exports = {
   square: square,
   cube: cube,
   raiseToPower: raiseToPower,
+  roundNumber: roundNumber,
+  roundUp: roundUp,
   addExclamationPoint: addExclamationPoint,
   combineNames: combineNames,
   getGreeting: getGreeting,

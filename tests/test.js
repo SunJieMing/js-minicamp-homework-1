@@ -119,11 +119,27 @@ describe('cube(num)', function() {
 });
 
 describe('raiseToPower(num, exponent)', function() {
+  it('should return the argument after raising it to the exponent\'s power', function() {
+    expect(exercises.raiseToPower(2, 2)).toBe(4);
+    expect(exercises.raiseToPower(2, 3)).toBe(8);
+    expect(exercises.raiseToPower(0, 5)).toBe(0);
+    expect(exercises.raiseToPower(10, 1)).toBe(10);
+  });
+});
+
+describe('roundNumber(num)', function() {
+  it('should return the argument after rounding it', function() {
+    expect(exercises.roundNumber(1.5)).toBe(2);
+    expect(exercises.roundNumber(2)).toBe(2);
+    expect(exercises.roundNumber(0.1)).toBe(0);
+  });
+});
+
+describe('roundUp(num)', function() {
   it('should return the argument after squaring it', function() {
-    expect(exercises.cube(2, 2)).toBe(4);
-    expect(exercises.cube(2, 3)).toBe(8);
-    expect(exercises.cube(0, 5)).toBe(0);
-    expect(exercises.cube(10, 1)).toBe(10);
+    expect(exercises.roundNumber(1.5)).toBe(2);
+    expect(exercises.roundNumber(2)).toBe(2);
+    expect(exercises.roundNumber(0.1)).toBe(1);
   });
 });
 
