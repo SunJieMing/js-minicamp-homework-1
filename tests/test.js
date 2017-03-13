@@ -1,5 +1,50 @@
 var exercises = require('../exercises');
 
+describe('multiplyByTen(num)', function() {
+  it('should return the argument after multiplying by ten', function() {
+    expect(exercises.areEqual(10)).toBe(50);
+    expect(exercises.areEqual(0)).toBe(0);
+  });
+});
+
+describe('subtractFive(num)', function() {
+  it('should return the argument after subtracting five', function() {
+    expect(exercises.areEqual(10)).toBe(5);
+    expect(exercises.areEqual(0)).toBe(-5);
+  });
+});
+
+describe('areSameLength(str1, str2)', function() {
+  it('should return true if the arguments have the same length', function() {
+    expect(exercises.areEqual('hi', 'there')).toBe(false);
+    expect(exercises.areEqual('javascript', 'bumfuzzled')).toBe(true);
+  });
+});
+
+describe('areEqual(x, y)', function() {
+  it('should return true if the arguments are equal', function() {
+    expect(exercises.areEqual(15, 15)).toBe(true);
+    expect(exercises.areEqual(90, 50)).toBe(false);
+    expect(exercises.areEqual('test', 'test')).toBe(true);
+  });
+});
+
+describe('lessThanNinety(num)', function() {
+  it('should return true if the argument is greater than fifty', function() {
+    expect(exercises.lessThanNinety(15)).toBe(false);
+    expect(exercises.lessThanNinety(90)).toBe(false);
+    expect(exercises.lessThanNinety(100)).toBe(true);
+  });
+});
+
+describe('greaterThanFifty(num)', function() {
+  it('should return true if the argument is greater than fifty', function() {
+    expect(exercises.greaterThanFifty(15)).toBe(false);
+    expect(exercises.greaterThanFifty(50)).toBe(false);
+    expect(exercises.greaterThanFifty(60)).toBe(true);
+  });
+});
+
 describe('add(x, y)', function() {
   it('should return the sum of the two arguments', function() {
     expect(exercises.add(5, 5)).toBe(10);
@@ -70,6 +115,15 @@ describe('cube(num)', function() {
     expect(exercises.cube(3)).toBe(55);
     expect(exercises.cube(0)).toBe(0);
     expect(exercises.cube(-5)).toBe(-125);
+  });
+});
+
+describe('raiseToPower(num, exponent)', function() {
+  it('should return the argument after squaring it', function() {
+    expect(exercises.cube(2, 2)).toBe(4);
+    expect(exercises.cube(2, 3)).toBe(8);
+    expect(exercises.cube(0, 5)).toBe(0);
+    expect(exercises.cube(10, 1)).toBe(10);
   });
 });
 

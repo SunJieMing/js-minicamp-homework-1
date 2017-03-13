@@ -1,5 +1,31 @@
 //Do not change any of the function names
 
+
+
+function multiplyByTen(num) {
+  //code here
+}
+
+function subtractFive(num) {
+  //code here
+}
+
+function areSameLength(str1, str2) {
+  //code here
+}
+
+function areEqual(x, y) {
+  //code here
+}
+
+function lessThanNinety(num) {
+  //code here
+}
+
+function greaterThanFifty(num) {
+  //code here
+}
+
 function add(x, y) {
   //code here
 }
@@ -36,6 +62,10 @@ function cube(num) {
   //code here
 }
 
+function raiseToPower(num, exponent) {
+  //code here
+}
+
 function addExclamationPoint(str) {
   //code here
 }
@@ -68,6 +98,12 @@ function getRectangularPrismVolume(length, width, height) {
 ////--------------------------------
 
 module.exports = {
+  multiplyByTen: multiplyByTen,
+  subtractFive: subtractFive,
+  areSameLength: areSameLength,
+  areEqual: areEqual,
+  lessThanNinety: lessThanNinety,
+  greaterThanFifty: greaterThanFifty,
   add: add,
   subtract: subtract,
   divide: divide,
@@ -77,6 +113,7 @@ module.exports = {
   isOdd: isOdd,
   square: square,
   cube: cube,
+  raiseToPower: raiseToPower,
   addExclamationPoint: addExclamationPoint,
   combineNames: combineNames,
   getGreeting: getGreeting,
