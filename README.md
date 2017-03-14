@@ -20,7 +20,7 @@
 4. Download this project folder from GitHub.
 
 
-5. Navigate into the downloaded folder using Terminal(Mac) or Command Prompt(Windows).  `ls`(Mac), `pwd`(Windows) and `cd <directory_name>` are the commands you need to navigate around.
+5. Navigate into the downloaded folder using Terminal(Mac) or Command Prompt(Windows).  `ls`(Mac), `dir`(Windows) and `cd <directory_name>` are the commands you need to navigate around.
 
 
 6. Once you are in the folder type the command `npm install`.  This will fetch all of the needed requirements for the project.
