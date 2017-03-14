@@ -132,7 +132,7 @@ function getCircleArea(radius) {
 }
 
 function getRectangularPrismVolume(length, width, height) {
-  //return the area of the 3D rectangular prism given the length, width, and height
+  //return the volume of the 3D rectangular prism given the length, width, and height
   //code here
 }
 
