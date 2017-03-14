@@ -1,8 +1,4 @@
-JS Mini Bootcamp HW 1
-
-
-
-# Homework #8
+# Homework #1
 
 ## Instructions
 ---
