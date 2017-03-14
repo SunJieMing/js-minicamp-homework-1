@@ -136,10 +136,10 @@ describe('roundNumber(num)', function() {
 });
 
 describe('roundUp(num)', function() {
-  it('should return the argument after squaring it', function() {
-    expect(exercises.roundUp(1.5)).toBe(2);
+  it('should return the argument after rounding Up', function() {
+    expect(exercises.roundUp(1.5)).toBe(1);
     expect(exercises.roundUp(2)).toBe(2);
-    expect(exercises.roundUp(0.1)).toBe(1);
+    expect(exercises.roundUp(0.1)).toBe(0);
   });
 });
 
