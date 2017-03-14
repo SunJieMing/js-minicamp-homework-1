@@ -27,10 +27,10 @@ JS Mini Bootcamp HW 1
 5. Navigate into the downloaded folder using Terminal(Mac) or Command Prompt(Windows).  `ls`(Mac), `pwd`(Windows) and `cd <directory_name>` are the commands you need to navigate around.
 
 
-6. Once you are in the folder type the command 'npm install'.  This will fetch all of the needed requirements for the project.
+6. Once you are in the folder type the command `npm install`.  This will fetch all of the needed requirements for the project.
 
 
-7. Run 'npm test' to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `exercises.js` to make the tests pass.
+7. Run `npm test` to run the automated tests.  At first all of the tests will be broken.  You will fill out the functions in `exercises.js` to make the tests pass.
 
 
 
@@ -43,31 +43,3 @@ Our part-time and full-time courses are 13 intense weeks of focused study on the
 Class sizes are small to ensure that each student gets individual attention from our world class instructors to help them succeed.  We also provide career support both during and after the course to help you succeed.  We are committed to your success.
 
 For more information visit: https://www.lambdaschool.com
-
-
-
-
-
-
-
-
-
-
-Pre-Work:
-- Read over the topics that will be covered.
-- Install Node (https://nodejs.org/en/download/)
-- Install SublimeText3 (https://www.sublimetext.com/3)
-
-Feynman Writing Prompt
-
-Code out the problems
-
-Topics:
-Command Line and basic commands
-Var
-Function
-  args
-  return
-+ - / % *
-data types (string, number, bool)
-Math
