@@ -2,22 +2,22 @@ var exercises = require('../exercises');
 
 describe('multiplyByTen(num)', function() {
   it('should return the argument after multiplying by ten', function() {
-    expect(exercises.areEqual(10)).toBe(50);
-    expect(exercises.areEqual(0)).toBe(0);
+    expect(exercises.multiplyByTen(10)).toBe(100);
+    expect(exercises.multiplyByTen(0)).toBe(0);
   });
 });
 
 describe('subtractFive(num)', function() {
   it('should return the argument after subtracting five', function() {
-    expect(exercises.areEqual(10)).toBe(5);
-    expect(exercises.areEqual(0)).toBe(-5);
+    expect(exercises.subtractFive(10)).toBe(5);
+    expect(exercises.subtractFive(0)).toBe(-5);
   });
 });
 
 describe('areSameLength(str1, str2)', function() {
   it('should return true if the arguments have the same length', function() {
-    expect(exercises.areEqual('hi', 'there')).toBe(false);
-    expect(exercises.areEqual('javascript', 'bumfuzzled')).toBe(true);
+    expect(exercises.areSameLength('hi', 'there')).toBe(false);
+    expect(exercises.areSameLength('javascript', 'bumfuzzled')).toBe(true);
   });
 });
 
@@ -31,9 +31,9 @@ describe('areEqual(x, y)', function() {
 
 describe('lessThanNinety(num)', function() {
   it('should return true if the argument is greater than fifty', function() {
-    expect(exercises.lessThanNinety(15)).toBe(false);
+    expect(exercises.lessThanNinety(15)).toBe(true);
     expect(exercises.lessThanNinety(90)).toBe(false);
-    expect(exercises.lessThanNinety(100)).toBe(true);
+    expect(exercises.lessThanNinety(100)).toBe(false);
   });
 });
 
@@ -112,7 +112,7 @@ describe('square(num)', function() {
 
 describe('cube(num)', function() {
   it('should return the argument after squaring it', function() {
-    expect(exercises.cube(3)).toBe(55);
+    expect(exercises.cube(3)).toBe(27);
     expect(exercises.cube(0)).toBe(0);
     expect(exercises.cube(-5)).toBe(-125);
   });
@@ -137,9 +137,9 @@ describe('roundNumber(num)', function() {
 
 describe('roundUp(num)', function() {
   it('should return the argument after squaring it', function() {
-    expect(exercises.roundNumber(1.5)).toBe(2);
-    expect(exercises.roundNumber(2)).toBe(2);
-    expect(exercises.roundNumber(0.1)).toBe(1);
+    expect(exercises.roundUp(1.5)).toBe(2);
+    expect(exercises.roundUp(2)).toBe(2);
+    expect(exercises.roundUp(0.1)).toBe(1);
   });
 });
 
@@ -181,7 +181,7 @@ describe('getTriangleArea(base, height)', function() {
 
 describe('getCircleArea(radius)', function() {
   it('should return the correct area', function() {
-    expect(exercises.getCircleArea(4)).toBe(50.2654824574);
+    expect(exercises.getCircleArea(4)).toBe(50);
     expect(exercises.getCircleArea(0)).toBe(0);
   });
 });

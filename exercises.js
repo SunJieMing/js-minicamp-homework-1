@@ -127,7 +127,7 @@ function getTriangleArea(base, height) {
 }
 
 function getCircleArea(radius) {
-  //return the area of the circle given the radius
+  //return the rounded area of the circle given the radius
   //code here
 }
 
