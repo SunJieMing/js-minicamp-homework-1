@@ -187,7 +187,7 @@ describe('getCircleArea(radius)', function() {
 });
 
 describe('getRectangularPrismVolume(length, width, height)', function() {
-  it('should return the correct area', function() {
+  it('should return the correct volume', function() {
     expect(exercises.getRectangularPrismVolume(2, 2, 2)).toBe(8);
     expect(exercises.getRectangularPrismVolume(0, 5, 10)).toBe(0);
   });
