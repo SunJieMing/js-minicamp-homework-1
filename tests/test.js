@@ -111,7 +111,7 @@ describe('square(num)', function() {
 });
 
 describe('cube(num)', function() {
-  it('should return the argument after squaring it', function() {
+  it('should return the argument after cubing it', function() {
     expect(exercises.cube(3)).toBe(27);
     expect(exercises.cube(0)).toBe(0);
     expect(exercises.cube(-5)).toBe(-125);
