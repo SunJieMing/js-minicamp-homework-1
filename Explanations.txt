@@ -1,0 +1,51 @@
+Variables: Variables are basically a type of placeholder. They can be numbers, words, true/false (boolean values), etc. 
+
+----------------
+
+Strings: Strings are values that can be words, sentences, or even meaningful groups of characters. They are not number values, although a string can consist of a number, such as '3' instead of 3.
+
+----------------
+
+Functions: Functions are blocks of code that can be reused as many times as necessary. For example, if a person wanted to eat a certain number of sandwiches, they could write a function called eatSandwiches. A variable value called an argument is passed into what is known as the parameter. The parameter is similar to a rule, per se. It says what CAN be passed into the function as an argument. For example, I could have the function:
+
+eatSandwiches(x) {
+    console.log('I ate ' + x + ' sandwiches.');
+}
+
+In this case, x is the parameter. It is the place where the argument will go. If I want to eat 17 sandwiches, I would invoke the eatSandwiches function with 17 as my argument:
+
+eatSandwiches(17);
+
+Thus, I have eaten 17 sandwiches.
+
+Also, in functions, one can "return" a value of any kind. I can say:
+
+var myCar = "Lamborghini";
+function whatDoIDrive(myCar) {
+    if (myCar === "Lamborghini") {
+        var myCarIsFast = true;
+        return myCarIsFast;
+    }
+return false;
+}
+
+If one were to typer console.log(whatDoIDrive("Lamborghini")), the value would show to be true,
+because myCar = "Lamborghini" would cause the function whatDoIDrive() to return true.
+
+----------------
+
+If statements: An if statement is a way to "check for" something. If I want to find out if I am allowed to watch an R-rated movie alone, I first need to figure out the condition to be allowed to enter. My age would need to be at least 17. So, that is the sae as saying:
+
+if myAge > 16				//or if myAge >= 17
+I can enter. So, I could this statement:
+
+if  (myAge > 16) {
+var iCanWatchTheMovie = true;
+return iCanWatchTheMovie;
+}
+
+if myAge were less than 17, the fucntion would return false and I would not be allowed to see the movie.
+
+----------------
+
+Boolean values: Boolean values are a way to hold a simple variable of logic. For example, a lightswitch can either be on, or off. A boolean value is similar, in that it holds a value of either true (lowercase only), or false (lowercase only).
