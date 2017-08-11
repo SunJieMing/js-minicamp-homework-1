@@ -1,0 +1,57 @@
+Variables 
+
+Variables are like buckets. They can store data, references to other things, & 'objects'.
+When we declare a variable, we write it like this:
+
+var firstName = Bill;
+
+
+Strings
+
+Strings are places where you can store text inside of quotes. Make sure the beginning and ending quotes match each other. Here's an example:
+
+var x = 'Hello!'
+
+
+
+
+Functions (arguments, return)
+
+Functions are what you use to tell the code to do something. Another thing 'calls' the functions to say 'do this'. The function has a name, and parentheses ( ) come after that, with any parameters like x, y separated by commas. Then the code which the function orders to 'do this' inside curly braces { }. 
+
+Here's an example:
+
+function MyMultiplicationTime (x,y) {
+  return x * y;
+}
+
+//This function returns the product of parameter X multiplied by parameter y.
+
+//Arguments are the values produced when the function is called (ordered to run).
+//You can use a function as a variable itself.
+
+
+if statements
+
+//If statements are used to make your code do different things depending on different decisions.
+Make sure to use lowercase letters only to write if statements. 
+
+//You are telling the code, Do this, if something is true.
+else is used to tell the code, Do this other thing instead, if that something is false. 
+
+//Here's an example of code to say whether someone is being permitted to drive a car or not, based on the age:
+
+if (age > 18) {
+  document.write ('<b>You can drive</b>'); }
+
+else {
+  document.write ('<b>You are not old enough to drive</b>'); }
+
+
+Boolean values (true, false)
+
+A Boolean value can be only true or false.  You can write the Boolean () function this way:
+
+Boolean (5 > 4)
+//The code will ask, is 5 greater than 4? The result is: true. 
+//You can also use < to say less than, or == for equal to , such if (month == 'August')
