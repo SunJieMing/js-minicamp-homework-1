@@ -1,0 +1,16 @@
+Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old. Doing this will help you quickly discover any holes in your understanding. Ask your questions on Slack.
+	◦	Variables
+    		Variables are used to find values in a computer program. For example, I may have 2 bowls filled with cereal. If I wanted to find out how much cereal is in each bowl, I would write a variable describing each bowl. Then I would write the value (amount of cereal) of each bowl. Depending on what is necessary, simple math would give me a value. 
+
+	◦	Strings
+		Strings are values attached to a variable. Usually the string is comprised of both letters and numbers or only letters. An example: #Flex=67THU865 (not actual). When a command of print a variable is given the value of String is shown. 
+
+	◦	Functions (arguments, return)
+		A Function instructs the computer what needs to be done. Arguments are contained in Functions for added instructions. The Return feature of a Function tells the computer whether the value of a code can be reused. 
+
+	◦	if statements
+		Similar to how Variables can equal a value, a “if statement” tells the computer that if a value is true or false, to print a given statement. Example: if (5>4){ print “Power”}
+
+	◦	Boolean values (true, false)
+		A Boolean examines conditional statements for values to determine if it is True or False. 
+		Example: “Coding is cool and fun.” value1=cool, value2=fun, Boolean=and Results=True
