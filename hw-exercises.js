@@ -2,24 +2,25 @@
 
 function multiplyByTen(num) {
   // return num after multiplying it by ten
-  // code here
+  // num * 10
 }
 
 function subtractFive(num) {
   // return num after subtracting five
-  // code here
+  // num - 5
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  // code here
+  // if (str1=areSameLength, str2=areSameLength)
+      print "true"
 }
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // code here
+  // x=y
 }
 
 function lessThanNinety(num) {
