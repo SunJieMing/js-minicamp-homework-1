@@ -5,11 +5,13 @@ function multiplyByTen(num) {
   // if (num * 10){
    return;
 }
+}
 
 function subtractFive(num) {
   // return num after subtracting five
   // if (num - 5){
   return;
+}
 }
 
 function areSameLength(str1, str2) {
@@ -17,79 +19,120 @@ function areSameLength(str1, str2) {
   // otherwise return false
   // if (str1=areSameLength, str2=areSameLength){
       print "true";
-}else {
+}
+else {
   print "false";
+}
 }
       
 
 function areEqual(x, y) {
   // return true if x and y are the same
   // otherwise return false
-  // x=y
+  // if (x=areEqual, y=areEqual){
+  print "true";
+}
+  else {
+    print "false";
+  }
 }
 
 function lessThanNinety(num) {
   // return true if num is less than ninety
   // otherwise return false
-  // code here
+  // if (num < 90){
+  return "true";
+}
+else { 
+  print "false";
+}
 }
 
 function greaterThanFifty(num) {
   // return true if num is greater than fifty
   // otherwise return false
-  // code here
+  // if (num > 50) {
+  return "true";
+}
+else {
+  print "false";
+}  
 }
 
 function add(x, y) {
   // add x and y together and return the value
-  // code here
+  // if (x+y){
+  return;
+}
 }
 
 function subtract(x, y) {
   // subtract y from x and return the value
-  // code here
+  // if (x-y) {
+  return;
+}
 }
 
 function divide(x, y) {
   // divide x by y and return the value
-  // code here
+  // if (x/y){
+  return;
+}
 }
 
 function multiply(x, y) {
   // multiply x by y and return the value
-  // code here
+  // if (x * y) {
+  return;
+}
 }
 
 function getRemainder(x, y) {
   // return the remainder from dividing x by y
-  // code here
+  // if (x % y) {
+  return;
+}
 }
 
 function isEven(num) {
   // return true if num is even
   // otherwise return false
-  // code here
+  // if num=isEven {
+  print "true";
+}
+else {
+  print "false";
+}
 }
 
 function isOdd(num) {
   // return true if num is false
   // otherwise return false
-  // code here
+  // if num=isOdd{
+  print "true";
+}
+else {
+  print "false";
+}
 }
 
 function square(num) {
   // square num and return the new value
-  // code here
+  // if math.sqrt(num){
+  return;
+}
 }
 
 function cube(num) {
   // cube num and return the new value
-  // code here
+  // if math.cube(num){
+  return;
+}
 }
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // code here
+  // 
 }
 
 function roundNumber(num) {
