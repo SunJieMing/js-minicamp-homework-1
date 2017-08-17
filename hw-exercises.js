@@ -2,20 +2,25 @@
 
 function multiplyByTen(num) {
   // return num after multiplying it by ten
-  // num * 10
+  // if (num * 10){
+   return;
 }
 
 function subtractFive(num) {
   // return num after subtracting five
-  // num - 5
+  // if (num - 5){
+  return;
 }
 
 function areSameLength(str1, str2) {
   // return true if the two strings have the same length
   // otherwise return false
-  // if (str1=areSameLength, str2=areSameLength)
-      print "true"
+  // if (str1=areSameLength, str2=areSameLength){
+      print "true";
+}else {
+  print "false";
 }
+      
 
 function areEqual(x, y) {
   // return true if x and y are the same
