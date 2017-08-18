@@ -132,55 +132,85 @@ function cube(num) {
 
 function raiseToPower(num, exponent) {
   // raise num to whatever power is passed in as exponent
-  // 
+  // math.pow(num,exponent){
+  return;
+}
 }
 
 function roundNumber(num) {
   // round num and return it
-  // code here
+  // math.round(num){
+  return;
+}
 }
 
 function roundUp(num) {
   // round num up and return it
-  // code here
+  // math.roundUp(num){
+  return;
+}
 }
 
 function addExclamationPoint(str) {
   // add an exclamation point to the end of str and return the new string
   // 'hello world' -> 'hello world!'
-  // code here
+  //  ('str!'){
+  return;
+}
 }
 
 function combineNames(firstName, lastName) {
   // return firstName and lastName combined as one string and separated by a space.
   // 'Lambda', 'School' -> 'Lambda School'
-  // code here
+  // var firstName = 'firstName'
+  // var lastName = 'lastName'
+  // var fullName ='firstName + lastName'{
+  return;
+}
 }
 
 function getGreeting(name) {
   // Take the name string and concatenate other strings onto it so it takes the following form:
   // 'Sam' -> 'Hello Sam!'
-  // code here
-}
+  // var That's my = 'That's my'
+  // var name = 'name'
+  // var getGreeting = 'That's my + name';
 
 // If you can't remember these area formulas then head over to Google or look at the test code.
  
 function getRectangleArea(length, width) {
   // return the area of the rectangle by using length and width
-  // code here
+  // var l = 'length'
+  // var w = 'width'
+  // var (l * w) = 'area' {
+  return;
+}
 }
 
 function getTriangleArea(base, height) {
   // return the area of the triangle by using base and height
-  // code here
+  // var b = 'base'
+  // var h = 'height'
+  // var ((b * h)/2) = 'area'{
+  return;
+}
 }
 
 function getCircleArea(radius) {
   // return the rounded area of the circle given the radius
-  // code here
+  // var r = 'radius'
+  // var pi = 'math.pi'
+  // var (pi * r * r) = 'area'{
+  return;
+}
 }
 
 function getRectangularPrismVolume(length, width, height) {
   // return the volume of the 3D rectangular prism given the length, width, and height
-  // code here
+  // var l = 'length'
+  // var w = 'width'
+  // var heigh = 'height'
+  // var (l * w * h) = 'volume'{
+  return;
+}
 }
