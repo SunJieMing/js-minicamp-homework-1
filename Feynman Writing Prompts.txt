@@ -1,0 +1,29 @@
+Variables
+    
+      Variables hold data. Data are things like sequences of characters that form words, and numbers. Data has a binary
+      representation in memory.
+    
+Strings
+    
+      Strings are sequences of characters. They are like arrays of characters.
+    
+Functions (arguments, return)
+    
+      Functions help you encapsulate code into reusable chunks. If you find yourself repeating the same chunk of code in many
+      places, you might consider putting that code in a function. You can parameterize a function, allowing it to perform actions on
+      data you give it, or to specify the function should run a certain way. You pass the arguments in for the parameters and the
+      function can use them in whatever way it wants. Functions can return a value, but they don't have to. If the function returns
+      a value, you can think of the function call as an expression that evaluates to its return value.
+    
+if statements
+    
+      If statements are one of the ways to control the execution flow of your program. Programs run straight down from the top,
+      except when there are flow control statements involved. The if statement allows you to selectively execute chunks of code,
+      and skip others. If you have a piece of code that should only run if a certain condition is true, then you may use an if
+      statement in that situation.
+      
+Boolean values (true, false)
+    
+      Boolean values consist of the value true and the value false. They are represented in binary by 1 and 0. You can think of
+      true as on and false as off. Booleans are used to represent conditions. Recall that you use conditions for control flow
+      statements like the if statement.
