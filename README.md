@@ -4,11 +4,15 @@
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
-	* Variables
-	* Strings
-	* Functions (arguments, `return`)
-	* `if` statements
-	* Boolean values (`true`, `false`)
+	* Variables (Variables in Javascript are like boxes that hold things. You give them names, just like labeling a box of Pokémon cards, so you can find it quickly. Use good names, so you know exactly what’s inside — like ‘Ultimate Pokémon Deck')
+
+	* Strings (sequence of characters for example. John Doe)
+
+	* Functions (arguments, `return`) (Functions are like cooking recipes or the instructions that come with a LEGO set. Running a function goes through each of the steps until it reaches the end or is told to stop)
+
+	* `if` statements - runs different paths (If you are running along a side walk and there is someone you don't like there then you will take a different path home)
+
+	* Boolean values (`true`, `false`) (yes or no) (lights on of off)
 
 
 2. Install Node and NPM.  NPM comes packaged with Node. https://nodejs.org/en/download/
