@@ -108,7 +108,7 @@ function isOdd(num) {
     return false;
   }
 
-  // return true if num is old
+  // return true if num is odd
   // otherwise return false
   // code here
 }
