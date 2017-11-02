@@ -1,0 +1,9 @@
+1. A variable is a container for values . In the expression 'var x = 5;', x is a variable.
+
+2. A string is a sequence of characters. This form of data can either be mutable or immutable, depending on the programming language. JS strings are immutable.
+
+3. A function is a block of code that is designed to take an input (which could be no input) and returns an output (which could be no output). Arguments are the elements passed into the function as input. Return is the command used in many languages to designate what is outputted by the function.
+
+4. An if statement surrounds a block of code in a condition. If the condition evaluates to true, then the block of code runs. If not, then another condition block might be activated, if there is one.
+
+5. 'True' and 'false' are the only two members of the boolean data type. They represent (respectively) "on" or "off", "yes" or "no", or other related states. The result of a comparison is going to be a boolean value.
