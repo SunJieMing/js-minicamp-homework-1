@@ -1,5 +1,11 @@
 //Do not change any of the function names
-
+/* Ira Sanchez
+Assignment 1 Terms:
+Variables - Variables are like nicknames in math (and Javascript). It’s weird if your friend takes your nickname in real life, and Javascript doesn’t like it very much either. Just like using your friend’s nickname is the same as using their name, using a variable is the same thing as typing in whatever that variable stands for. You give something a variable by typing var nameOfVariable = “stuff you want a shorter name for”;
+Strings - Strings are basically words that you want the computer to just read, not necessarily take instructions from. You put “quotes” around a word to tell the computer to ignore the meaning of the word and instead just read it. Otherwise, it may think you’re trying to tell it what to do. A string can also have numbers in it or even be an entire book if you’re into that. Here are some strings: “This is a string!”, “Commas can separate strings.”, “Don\’t use commas in Javascript the same way you do in English class. Your teacher won\’t be happy.”
+Functions (arguments, return) - Functions are like mini factories made out of code. Some factories make shoes. Some make computers. No factory does everything. Functions take something you give it (the argument), do something to it, and “return” to you the result. Some functions add 1 forever in order to make a list of numbers (1, 2, 3, 4, 5, 6, etc.). Other functions print “a string!”
+if statements - If statements are blocks of code that say “if this piece of information is true, then do this stuff to the code.” You may be wondering, “What if it’s not true though?” In that case, the code diverts to the “else” part of the code. 
+Boolean values (true, false) - “Boolean values” is a fancy way to describe yes/no, on/off, true/false -- anything where there are only two options to choose from and where both options cannot be true at the same time. */ 
 function multiplyByTen(num) {
 	var product = num * 10;
 	return product;
