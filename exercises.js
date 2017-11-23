@@ -1,5 +1,14 @@
 //Do not change any of the function names
 
+/*
+## Feynman Writing Prompts
+  1. Variables - Data types used to store data. It's giving a nickname to the action your are trying so you do not have to write a description of it everytime you need to call on it.
+  2. Strings - A sequence of characters. these are most often ysed in arrays of things, like lists of favourite foods or animals, or used when you want code input to say something back to you like saying Hi! 
+  3. Functions (arguments, return) - A unique identifier that receives arguments, any value that is passed through the function for the desired effects of the code, and returns, which, simply put, prints output; can be reused infinitely
+  4. if statements - if statements give you options in code. Like boolean values, if statements prompts whatever is parsing the code to check if it is "truethy", the values fit the desired parameters, and to return something or continue in the code. If the parameters are not met, it will check to see if there is a "falsy" value, an "else if" or "else", to perform their desired action.  
+  5. Boolean values (true, false) - Every decision ultimately boils down to a booleam value. True/false, yes/no, on/off, etc. Boolean values in javascript are used most often to decide which route to take in code, as in if statements, and what to return if true and what not to return in the case of a false statement. Or statements to repeat, like in for loops, and whether to continur cycling through an aray if the conditions are true, the defined value is still less than the ultimate goal number, or false, if we have reach the ultimate number or passed it. 
+*/
+
 function multiplyByTen(num) {
   return num * 10; // return num after multiplying it by ten
 }
