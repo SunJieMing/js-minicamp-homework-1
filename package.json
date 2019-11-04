@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/SunJieMing/js-minicamp-homework-1#readme",
   "devDependencies": {
-    "eslint": "^3.17.1",
+    "eslint": "^6.6.0",
     "jest": "^19.0.2"
   }
 }
